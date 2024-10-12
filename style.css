@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+    text-transform: capitalize;
+}
+
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 130px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.btn{
+    width: 120px;
+    height: 50.41px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+}
+
+.nav ul li:hover{
+    color: #FF7A50;
+    transition: all 1s;
+}
+
+.btn:hover{
+    color: #FF7A50;
+    background-color: white;
+    box-shadow: 22px -10px 40px 0px #FF683830;
+}
+
+.s1{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 500px;
+    gap: 40px;
+}
+
+.b1{
+    width: 163px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 10px 10px 10px #FF683830;
+}
+
+.s2{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 500px;
+    gap: 40px;
+}
+
+.s4{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 500px;
+    gap: 40px;
+}
+
+.b2{
+    width: 163px;
+    height: 50px;
+    border-radius: 20px 20px 0px 20px;
+    color: white;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 10px 10px 10px #FF683830;
+}
+
+.d1{
+    width: 520px;
+    height: 497px;
+    margin: 0 auto;
+}
+
+.d2{
+    width: 500px;
+    height: 497px;
+    margin: 0 auto;
+}
+
+.d3{
+    margin: 0 auto;
+}
+
+.sp1{
+    color: #FF7A50;
+}
+
+.d1 h1{
+    font-size: 66px;
+    font-weight: 500;
+}
+
+.d2 h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.d3 h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.d1 p{
+    width: 450px;
+}
+
+.d2 p{
+    width: 370px;
+}
+
+.d3 p{
+    width: 450px;
+}
+
+.b1:hover{
+    width: 163px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #fd5d2d;
+    box-shadow: 10px 10px 10px #FF683830;
+    border: 1px solid #fd5d2d;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.b2:hover{
+    width: 163px;
+    height: 50px;
+    border-radius: 20px 20px 0px 20px;
+    color: white;
+    background-color: #fd5d2d;
+    border: 1px solid #fd5d2d;
+    box-shadow: 10px 10px 10px #FF683830;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.f{
+    width: 1170px;
+    height: 312px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #FF7A50;
+}
+
+.f p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.i1{
+    width: 838px;
+    height: 78px;
+    border-radius: 70px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    margin: 0 155px;
+}
+
+.lb{
+    width: 120px;
+    height: 50px;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #FF683830;
+    color: white;
+}
+
+.lb:hover{
+    width: 120px;
+    height: 50px;
+    background-color: #fd5d2d;
+    border: 1px solid #fd5d2d;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #FF683830;
+    color: white;
+}
+
+.h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.card{
+    width: 361px;
+    margin: 0 auto;
+    height: 417px;
+    align-content: center;
+}
+
+.btn2{
+    width: 79px;
+    height: 33px;
+    background-color: #FF7A50;
+    box-shadow: 10px 10px 10px #FF683830;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    border: 1px solid #FF7A50;
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+}
+
+.il{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
